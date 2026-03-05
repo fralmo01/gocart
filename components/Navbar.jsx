@@ -23,9 +23,9 @@ const Navbar = () => {
                 <div className="flex items-center justify-between max-w-7xl mx-auto py-4  transition-all">
 
                     <Link href="/" className="relative text-4xl font-semibold text-slate-700">
-                        <span className="text-green-600">go</span>cart<span className="text-green-600 text-5xl leading-0">.</span>
-                        <p className="absolute text-xs font-semibold -top-1 -right-8 px-3 p-0.5 rounded-full flex items-center gap-2 text-white bg-green-500">
-                            plus
+                        <span className="text-green-600">Pet</span>Shop<span className="text-green-600 text-5xl leading-0">.</span>
+                        <p className="absolute text-xs font-semibold -top-1 -right-10 px-3 p-0.5 rounded-full flex items-center gap-2 text-white bg-indigo-500">
+                            vet
                         </p>
                     </Link>
 
@@ -33,8 +33,8 @@ const Navbar = () => {
                     <div className="hidden sm:flex items-center gap-4 lg:gap-8 text-slate-600">
                         <Link href="/">Home</Link>
                         <Link href="/shop">Shop</Link>
-                        <Link href="/">About</Link>
-                        <Link href="/">Contact</Link>
+                        <Link href="/veterinary">Veterinary</Link>
+                        <Link href="/contact">Contact</Link>
 
                         <form onSubmit={handleSearch} className="hidden xl:flex items-center w-xs text-sm gap-2 bg-slate-100 px-4 py-3 rounded-full">
                             <Search size={18} className="text-slate-600" />
